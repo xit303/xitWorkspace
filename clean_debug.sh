@@ -2,12 +2,8 @@
 
 # DEBUG
 
-# This script builds the complete xit project using xmake.
+# This script cleans the complete xit project using xmake.
 # It assumes that xmake is installed and available in the PATH.
-# It builds the project in its subdirectories.
-# It also assumes that the xmakefile.json files are present in each subdirectory.
-
-# The order of the build is important, as all projects depend on others (except xit).
 
 echo "*********cleaning xit*********"
 xmake xit/xmakefile.json clean
