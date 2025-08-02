@@ -1,0 +1,72 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/xit/include/**",
+                "/usr/include/freetype2",
+                "${workspaceFolder}/xit/include",
+                "${workspaceFolder}/xit.Account/include",
+                "${workspaceFolder}/xit.Account/lib/ArduinoJson/src",
+                "${workspaceFolder}/xit.Application/include",
+                "${workspaceFolder}/xit.Clipboard/include",
+                "${workspaceFolder}/xit.Clipboard/lib/glad/include",
+                "${workspaceFolder}/xit.Drawing/include",
+                "${workspaceFolder}/xit.Drawing/lib/glm/glm",
+                "${workspaceFolder}/xit.Input/include",
+                "${workspaceFolder}/xit.IO/include",
+                "${workspaceFolder}/xit.Security/include",
+                "${workspaceFolder}/xit.Threading/include",
+                "${workspaceFolder}/xit.Timers/include",
+                "${workspaceFolder}/xit.Window/include"
+            ],
+            "defines": [
+                "DEBUG"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "c++23",
+            "intelliSenseMode": "linux-gcc-x64",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/xit/include/**",
+                    "/usr/include/freetype2",
+                    "${workspaceFolder}/xit/include",
+                    "${workspaceFolder}/xit.Account/include",
+                    "${workspaceFolder}/xit.Account/lib/ArduinoJson/src",
+                    "${workspaceFolder}/xit.Application/include",
+                    "${workspaceFolder}/xit.Clipboard/include",
+                    "${workspaceFolder}/xit.Clipboard/lib/glad/include",
+                    "${workspaceFolder}/xit.Drawing/include",
+                    "${workspaceFolder}/xit.Drawing/lib/glm/glm",
+                    "${workspaceFolder}/xit.Input/include",
+                    "${workspaceFolder}/xit.IO/include",
+                    "${workspaceFolder}/xit.Security/include",
+                    "${workspaceFolder}/xit.Threading/include",
+                    "${workspaceFolder}/xit.Timers/include",
+                    "${workspaceFolder}/xit.Window/include",
+
+                    "${workspaceFolder}/xit/src/**",
+                    "/usr/include/freetype2",
+                    "${workspaceFolder}/xit/src",
+                    "${workspaceFolder}/xit.Account/src",
+                    "${workspaceFolder}/xit.Account/lib/ArduinoJson/src",
+                    "${workspaceFolder}/xit.Application/src",
+                    "${workspaceFolder}/xit.Clipboard/src",
+                    "${workspaceFolder}/xit.Clipboard/lib/glad/include",
+                    "${workspaceFolder}/xit.Drawing/src",
+                    "${workspaceFolder}/xit.Drawing/lib/glm/glm",
+                    "${workspaceFolder}/xit.Input/src",
+                    "${workspaceFolder}/xit.IO/src",
+                    "${workspaceFolder}/xit.Security/src",
+                    "${workspaceFolder}/xit.Threading/src",
+                    "${workspaceFolder}/xit.Timers/src",
+                    "${workspaceFolder}/xit.Window/src"
+                ],
+                "limitSymbolsToIncludedHeaders": false,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 4
+}
