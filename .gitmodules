@@ -1,0 +1,33 @@
+[submodule "xit"]
+	path = xit
+	url = https://github.com/xit303/xit.git
+[submodule "xit.Security"]
+	path = xit.Security
+	url = https://github.com/xit303/xit.Security.git
+[submodule "xit.Window"]
+	path = xit.Window
+	url = https://github.com/xit303/xit.Window.git
+[submodule "xit.Timers"]
+	path = xit.Timers
+	url = https://github.com/xit303/xit.Timers.git
+[submodule "xit.Threading"]
+	path = xit.Threading
+	url = https://github.com/xit303/xit.Threading.git
+[submodule "xit.Input"]
+	path = xit.Input
+	url = https://github.com/xit303/xit.Input.git
+[submodule "xit.IO"]
+	path = xit.IO
+	url = https://github.com/xit303/xit.IO.git
+[submodule "xit.Drawing"]
+	path = xit.Drawing
+	url = https://github.com/xit303/xit.Drawing.git
+[submodule "xit.Clipboard"]
+	path = xit.Clipboard
+	url = https://github.com/xit303/xit.Clipboard.git
+[submodule "xit.Application"]
+	path = xit.Application
+	url = https://github.com/xit303/xit.Application.git
+[submodule "xit.Account"]
+	path = xit.Account
+	url = https://github.com/xit303/xit.Account.git
