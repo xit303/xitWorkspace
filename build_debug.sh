@@ -10,7 +10,7 @@
 # The order of the build is important, as all projects depend on others (except xit).
 
 echo "*********Building xit*********"
-xmake xit/xmakefile.json
+xmake xit/xmakefile.json --config Debug
 
 # Check build result and return if it fails
 if [ $? -ne 0 ]; then
@@ -19,7 +19,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "*********Building xit.Timers*********"
-xmake xit.Timers/xmakefile.json
+xmake xit.Timers/xmakefile.json --config Debug
 
 # Check build result and return if it fails
 if [ $? -ne 0 ]; then
@@ -28,7 +28,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "*********Building xit.IO*********"
-xmake xit.IO/xmakefile.json
+xmake xit.IO/xmakefile.json --config Debug
 
 # Check build result and return if it fails
 if [ $? -ne 0 ]; then
@@ -37,7 +37,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "*********Building xit.Input*********"
-xmake xit.Input/xmakefile.json
+xmake xit.Input/xmakefile.json --config Debug
 
 # Check build result and return if it fails
 if [ $? -ne 0 ]; then
@@ -46,7 +46,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "*********Building xit.Clipboard*********"
-xmake xit.Clipboard/xmakefile.json
+xmake xit.Clipboard/xmakefile.json --config Debug
 
 # Check build result and return if it fails
 if [ $? -ne 0 ]; then
@@ -55,7 +55,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "*********Building xit.Security*********"
-xmake xit.Security/xmakefile.json
+xmake xit.Security/xmakefile.json --config Debug
 
 # Check build result and return if it fails
 if [ $? -ne 0 ]; then
@@ -64,7 +64,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "*********Building xit.Threading*********"
-xmake xit.Threading/xmakefile.json
+xmake xit.Threading/xmakefile.json --config Debug
 
 # Check build result and return if it fails
 if [ $? -ne 0 ]; then
@@ -73,7 +73,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "*********Building xit.Application*********"
-xmake xit.Application/xmakefile.json
+xmake xit.Application/xmakefile.json --config Debug
 
 # Check build result and return if it fails
 if [ $? -ne 0 ]; then
@@ -82,7 +82,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "*********Building xit.Account*********"
-xmake xit.Account/xmakefile.json
+xmake xit.Account/xmakefile.json --config Debug
 
 # Check build result and return if it fails
 if [ $? -ne 0 ]; then
@@ -91,7 +91,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "*********Building xit.Window*********"
-xmake xit.Window/xmakefile.json
+xmake xit.Window/xmakefile.json --config Debug
 
 # Check build result and return if it fails
 if [ $? -ne 0 ]; then
@@ -100,7 +100,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "*********Building xit.Drawing*********"
-xmake xit.Drawing/xmakefile.json
+xmake xit.Drawing/xmakefile.json --config Debug
 
 # Check build result and return if it fails
 if [ $? -ne 0 ]; then

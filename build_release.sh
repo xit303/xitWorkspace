@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# DEBUG
+# RELEASE
 
 # This script builds the complete xit project using xmake.
 # It assumes that xmake is installed and available in the PATH.
