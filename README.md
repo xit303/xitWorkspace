@@ -177,7 +177,7 @@ You can build individual submodules using xmake directly:
 
 ```bash
 cd xit.Drawing
-xmake xmakefile.json --config Debug
+xmake xmakefile.json -c Debug
 ```
 
 ### Running Tests

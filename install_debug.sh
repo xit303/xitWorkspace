@@ -8,7 +8,7 @@
 # The order of the build is important, as all projects depend on others (except xit).
 
 echo "*********Building xit*********"
-xmake xit/xmakefile.json install --config Debug
+xmake xit/xmakefile.json install -c Debug
 
 # Check build result and return if it fails
 if [ $? -ne 0 ]; then
@@ -17,7 +17,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "*********Building xit.Timers*********"
-xmake xit.Timers/xmakefile.json install --config Debug
+xmake xit.Timers/xmakefile.json install -c Debug
 
 # Check build result and return if it fails
 if [ $? -ne 0 ]; then
@@ -26,7 +26,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "*********Building xit.IO*********"
-xmake xit.IO/xmakefile.json install --config Debug
+xmake xit.IO/xmakefile.json install -c Debug
 
 # Check build result and return if it fails
 if [ $? -ne 0 ]; then
@@ -35,7 +35,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "*********Building xit.Input*********"
-xmake xit.Input/xmakefile.json install --config Debug
+xmake xit.Input/xmakefile.json install -c Debug
 
 # Check build result and return if it fails
 if [ $? -ne 0 ]; then
@@ -44,7 +44,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "*********Building xit.Clipboard*********"
-xmake xit.Clipboard/xmakefile.json install --config Debug
+xmake xit.Clipboard/xmakefile.json install -c Debug
 
 # Check build result and return if it fails
 if [ $? -ne 0 ]; then
@@ -53,7 +53,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "*********Building xit.Security*********"
-xmake xit.Security/xmakefile.json install --config Debug
+xmake xit.Security/xmakefile.json install -c Debug
 
 # Check build result and return if it fails
 if [ $? -ne 0 ]; then
@@ -62,7 +62,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "*********Building xit.Threading*********"
-xmake xit.Threading/xmakefile.json install --config Debug
+xmake xit.Threading/xmakefile.json install -c Debug
 
 # Check build result and return if it fails
 if [ $? -ne 0 ]; then
@@ -71,7 +71,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "*********Building xit.Application*********"
-xmake xit.Application/xmakefile.json install --config Debug
+xmake xit.Application/xmakefile.json install -c Debug
 
 # Check build result and return if it fails
 if [ $? -ne 0 ]; then
@@ -80,7 +80,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "*********Building xit.Account*********"
-xmake xit.Account/xmakefile.json install --config Debug
+xmake xit.Account/xmakefile.json install -c Debug
 
 # Check build result and return if it fails
 if [ $? -ne 0 ]; then
@@ -89,7 +89,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "*********Building xit.Window*********"
-xmake xit.Window/xmakefile.json install --config Debug
+xmake xit.Window/xmakefile.json install -c Debug
 
 # Check build result and return if it fails
 if [ $? -ne 0 ]; then
@@ -98,7 +98,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "*********Building xit.Drawing*********"
-xmake xit.Drawing/xmakefile.json install --config Debug
+xmake xit.Drawing/xmakefile.json install -c Debug
 
 # Check build result and return if it fails
 if [ $? -ne 0 ]; then

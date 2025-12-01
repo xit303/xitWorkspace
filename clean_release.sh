@@ -6,7 +6,7 @@
 # It assumes that xmake is installed and available in the PATH.
 
 echo "*********cleaning xit*********"
-xmake xit/xmakefile.json clean --config Release
+xmake xit/xmakefile.json clean -c Release
 
 # Check build result and return if it fails
 if [ $? -ne 0 ]; then
@@ -15,7 +15,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "*********cleaning xit.Timers*********"
-xmake xit.Timers/xmakefile.json clean --config Release
+xmake xit.Timers/xmakefile.json clean -c Release
 
 # Check build result and return if it fails
 if [ $? -ne 0 ]; then
@@ -24,7 +24,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "*********cleaning xit.IO*********"
-xmake xit.IO/xmakefile.json clean --config Release
+xmake xit.IO/xmakefile.json clean -c Release
 
 # Check build result and return if it fails
 if [ $? -ne 0 ]; then
@@ -33,7 +33,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "*********cleaning xit.Input*********"
-xmake xit.Input/xmakefile.json clean --config Release
+xmake xit.Input/xmakefile.json clean -c Release
 
 # Check build result and return if it fails
 if [ $? -ne 0 ]; then
@@ -42,7 +42,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "*********cleaning xit.Clipboard*********"
-xmake xit.Clipboard/xmakefile.json clean --config Release
+xmake xit.Clipboard/xmakefile.json clean -c Release
 
 # Check build result and return if it fails
 if [ $? -ne 0 ]; then
@@ -51,7 +51,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "*********cleaning xit.Security*********"
-xmake xit.Security/xmakefile.json clean --config Release
+xmake xit.Security/xmakefile.json clean -c Release
 
 # Check build result and return if it fails
 if [ $? -ne 0 ]; then
@@ -60,7 +60,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "*********cleaning xit.Threading*********"
-xmake xit.Threading/xmakefile.json clean --config Release
+xmake xit.Threading/xmakefile.json clean -c Release
 
 # Check build result and return if it fails
 if [ $? -ne 0 ]; then
@@ -69,7 +69,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "*********cleaning xit.Application*********"
-xmake xit.Application/xmakefile.json clean --config Release
+xmake xit.Application/xmakefile.json clean -c Release
 
 # Check build result and return if it fails
 if [ $? -ne 0 ]; then
@@ -78,7 +78,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "*********cleaning xit.Account*********"
-xmake xit.Account/xmakefile.json clean --config Release
+xmake xit.Account/xmakefile.json clean -c Release
 
 # Check build result and return if it fails
 if [ $? -ne 0 ]; then
@@ -87,7 +87,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "*********cleaning xit.Drawing*********"
-xmake xit.Drawing/xmakefile.json clean --config Release
+xmake xit.Drawing/xmakefile.json clean -c Release
 
 # Check build result and return if it fails
 if [ $? -ne 0 ]; then
